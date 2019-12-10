@@ -2,8 +2,10 @@
   "name": "lab5",
   "version": "1.0.0",
   "description": "mongodb lab5",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node",
+    "restart-watch": "nodemon",
     "test": "jest --verbose",
     "test:watch": "npm run test -- --watchAll --coverage",
     "lint": "eslint '**/*.js'"
